@@ -32,267 +32,516 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="w-[95%] lg:w-[1172px] mx-auto ">
-        <!-- navbar -->
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a class="text-[16px] font-[600] text-orange-600 ">Home</a></li>
-                    <li><a class="text-[16px] font-[400] text-[#434347] ">About</a></li>
-                    <li><a class="text-[16px] font-[400] text-[#434347] ">Page</a></li>
-                    <li><a class="text-[16px] font-[400] text-[#434347] ">Blog</a></li>
-                    <li><a class="text-[16px] font-[400] text-[#434347] ">Contact</a></li>
-                </ul>
-              </div>
-              <a class="font-[800] text-[36px]">Hockey<span class="text-orange-600">'</span>s</a>
+    <header class="w-[95%] lg:w-[1172px] mx-auto">
+      <!-- navbar -->
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="4"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a class="text-[16px] font-[600] text-orange-600  ">Home</a></li>
-                <li><a class="text-[16px] font-[400] text-[#434347] ">About</a></li>
-                <li><a class="text-[16px] font-[400] text-[#434347] ">Page</a></li>
-                <li><a class="text-[16px] font-[400] text-[#434347] ">Blog</a></li>
-                <li><a class="text-[16px] font-[400] text-[#434347] ">Contact</a></li>
-                
-                
-              </ul>
-            </div>
-            <div class="navbar-end">
-                <i class="fa-solid fa-magnifying-glass mr-[20px] opacity-50 hidden lg:flex"></i>
-              <a class="btn bg-[#FF4240] text-white font-[600]">Get Ticket</a>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <a class="text-[16px] font-[600] text-orange-600">Home</a>
+              </li>
+              <li>
+                <a class="text-[16px] font-[400] text-[#434347]">About</a>
+              </li>
+              <li><a class="text-[16px] font-[400] text-[#434347]">Page</a></li>
+              <li><a class="text-[16px] font-[400] text-[#434347]">Blog</a></li>
+              <li>
+                <a class="text-[16px] font-[400] text-[#434347]">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <a class="font-[800] text-[36px]"
+            >Hockey<span class="text-orange-600">'</span>s</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-[16px] font-[600] text-orange-600">Home</a></li>
+            <li><a class="text-[16px] font-[400] text-[#434347]">About</a></li>
+            <li><a class="text-[16px] font-[400] text-[#434347]">Page</a></li>
+            <li><a class="text-[16px] font-[400] text-[#434347]">Blog</a></li>
+            <li>
+              <a class="text-[16px] font-[400] text-[#434347]">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <i
+            class="fa-solid fa-magnifying-glass mr-[20px] opacity-50 hidden lg:flex"
+          ></i>
+          <a class="btn bg-[#FF4240] text-white font-[600]">Get Ticket</a>
+        </div>
+      </div>
+      <!--nav end ======================================================== -->
+
+      <!-- Professional Hockeys Club -->
+      <div
+        class="border-t border-dotted border-black w-full lg:mt-[100px] my-4"
+      ></div>
+      <div
+        class="w-100% lg:w-[607px] text-center mx-auto mt-5 lg:mt-[50px] space-y-5"
+      >
+        <h1 class="text-[28px] lg:text-[36px] font-[800] text-[#131318]">
+          Professional Hockeys Club
+        </h1>
+        <p class="text-[16px] font-[500] text-[#13131899]">
+          Hockey clubs compete in intense matches, showcasing skill, teamwork,
+          and passion, thrilling fans worldwide with exhilarating gameplay.
+        </p>
+      </div>
+      <div class="border-t border-dotted border-black w-full my-16"></div>
+
+      <div
+        class="grid grid-col-1 lg:grid-cols-4 mt-[100px] space-y-12 lg:space-y-0"
+      >
+        <div class="text-center space-y-5">
+          <div
+            class="radial-progress text-red-500 font-[800]"
+            style="--value: 87"
+            role="progressbar"
+          >
+            <span class="text-black">87%</span>
+          </div>
+          <h4 class="text-[20px] font-[600] text-[#131318]">Prayer Facility</h4>
+          <h6 class="text-[16px] font-[400]">
+            Prayer facility fosters spiritual reflection.
+          </h6>
+        </div>
+
+        <div class="text-center space-y-5">
+          <div
+            class="radial-progress text-[#49D293] font-[800]"
+            style="--value: 95"
+            role="progressbar"
+          >
+            <span class="text-black">95%</span>
+          </div>
+          <h4 class="text-[20px] font-[600] text-[#131318]">
+            Experienced Coach
+          </h4>
+          <h6 class="text-[16px] font-[400]">
+            Experienced coach cultivates talent effectively.
+          </h6>
+        </div>
+        <div class="text-center space-y-5">
+          <div
+            class="radial-progress text-yellow-200 font-[800]"
+            style="--value: 90"
+            role="progressbar"
+          >
+            <span class="text-black">90%</span>
+          </div>
+          <h4 class="text-[20px] font-[600] text-[#131318]">Senior Player</h4>
+          <h6 class="text-[16px] font-[400]">
+            Senior player leads with <br />
+            experience.
+          </h6>
+        </div>
+        <div class="text-center space-y-5">
+          <div
+            class="radial-progress text-[#4C8DF1] font-[800]"
+            style="--value: 80"
+            role="progressbar"
+          >
+            <span class="text-black">80%</span>
+          </div>
+          <h4 class="text-[20px] font-[600] text-[#131318]">Prayer Facility</h4>
+          <h6 class="text-[16px] font-[400]">
+            Training ground fosters athlete development.
+          </h6>
+        </div>
+      </div>
+
+      <!--Professional Hockeys Club End =========================== -->
+    </header>
+    <main class="w-[95%] lg:w-[1172px] mx-auto">
+      <!-- program section start -->
+      <div
+        class="border-t border-dotted border-black w-full lg:mt-[100px] my-4"
+      ></div>
+      <div
+        class="w-100% lg:w-[607px] text-center mx-auto mt-5 lg:mt-[50px] space-y-5"
+      >
+        <h1 class="text-[28px] lg:text-[36px] font-[800] text-[#131318]">
+          Program Sections
+        </h1>
+        <p class="text-[16px] font-[500] text-[#13131899]">
+          Program sections include planning, coding, testing, debugging,
+          documentation—essential phases ensuring software development success
+          and efficiency.
+        </p>
+      </div>
+      <div class="border-t border-dotted border-black w-full my-16"></div>
+
+      <!-- imgss -->
+      <div class="flex flex-col lg:flex-row justify-between">
+        <div
+          class="hero h-full w-[100%] lg:h-[338px] lg:w-[570px] rounded-2xl"
+          style="background-image: url(./Images/2.png)"
+        >
+          <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-4xl font-bold lg:text-left">
+                Junior Program
+              </h1>
+              <p class="mb-5 lg:text-left">
+                Junior programmers embark on a learning journey, gaining coding
+                skills, problem-solving abilities, and teamwork experience.
+                Mentorship guides their growth, shaping future software
+                development leaders.
+              </p>
+              <button
+                class="btn lg:-ml-[330px] bg-[#FF4240] text-white border-0"
+              >
+                Register Now
+              </button>
             </div>
           </div>
-        <!--nav end ======================================================== -->
-
-
-
-
-        <!-- Professional Hockeys Club -->
-        <div class="border-t border-dotted border-black w-full lg:mt-[100px] my-4"></div>
-        <div class="w-100% lg:w-[607px] text-center mx-auto mt-5 lg:mt-[50px]  space-y-5">
-            <h1 class="text-[28px]  lg:text-[36px] font-[800] text-[#131318] ">Professional Hockeys Club</h1>
-            <p class="text-[16px] font-[500] text-[#13131899]">Hockey clubs compete in intense matches, showcasing skill, teamwork, and passion, thrilling fans worldwide with exhilarating gameplay.</p>
         </div>
-        <div class="border-t border-dotted border-black w-full my-16"></div>
+        <div
+          class="hero h-full w-[100%] mt-[20px] lg:mt-0 lg:h-[338px] lg:w-[570px] rounded-2xl"
+          style="background-image: url(./Images/3.png)"
+        >
+          <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-4xl font-bold lg:text-left">
+                Teenager Program
+              </h1>
+              <p class="mb-5 lg:text-left">
+                Teenager programmers explore coding realms, blending creativity
+                and technology. Nurturing curiosity, mentorship transforms their
+                passion into powerful skills, fostering innovation for the
+                digital future..
+              </p>
+              <button
+                class="btn lg:-ml-[330px] bg-[#FF4240] text-white border-0"
+              >
+                Register Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="hero w-full h-[450px] mt-10 rounded-2xl"
+        style="background-image: url(./Images/4.png)"
+      >
+        <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+        <div class="">
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md lg:absolute lg:left-[15%] lg:mt-[100px]">
+              <h1 class="mb-5 text-4xl font-bold lg:text-left">
+                Professional Program
+              </h1>
+              <p class="mb-5 lg:text-left">
+                Professional programs demand expertise, efficiency, and
+                collaboration. Seasoned developers navigate complex projects,
+                ensuring quality, meeting deadlines, and driving innovation in
+                the ever-evolving landscape of software engineering.
+              </p>
+              <button
+                class="btn lg:-ml-[330px] bg-[#FF4240] text-white border-0"
+              >
+                Register Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- program section End============================= -->
 
-        <div class="grid grid-col-1 lg:grid-cols-4 mt-[100px] space-y-12 lg:space-y-0">
+      <!-- our product section start -->
+      <div
+        class="border-t border-dotted border-black w-full lg:mt-[100px] my-4"
+      ></div>
+      <div
+        class="w-100% lg:w-[607px] text-center mx-auto mt-5 lg:mt-[50px] space-y-5"
+      >
+        <h1 class="text-[28px] lg:text-[36px] font-[800] text-[#131318]">
+          Our Product Section
+        </h1>
+        <p class="text-[16px] font-[500] text-[#13131899]">
+          In our product section, sports take center stage, offering a diverse
+          array of high-quality gear, apparel, and accessories. Elevate your
+          performance with our innovative products designed for enthusiasts and
+          athletes alike.
+        </p>
+      </div>
+      <div class="border-t border-dotted border-black w-full my-16"></div>
 
-            <div class="text-center space-y-5">
-                <div class="radial-progress text-red-500 font-[800]" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
-                <h4 class="text-[20px] font-[600] text-[#131318]">Prayer Facility</h4>
-                <h6 class="text-[16px] font-[400] ">Prayer facility fosters spiritual reflection.</h6>
+      <!-- main card start -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-[24px]">
+        <!-- card1 -->
+        <div
+          class="card card-side bg-base-100 h-full flex flex-col lg:flex-row shadow-xl border-zinc-200 border-[1px] p-4"
+        >
+          <figure class="w-full lg:w-[180px]">
+            <img
+              src="./Images/6.png"
+              class="h-[170px] w-full rounded-xl bg-auto lg:object-cover"
+              alt="Movie"
+            />
+          </figure>
+          <div class="mt-7 lg:ml-6 space-y-3">
+            <div class="flex w-[60%] justify-between">
+              <h6 class="text-gray-600">
+                <i class="fa-solid fa-star text-orange-600"></i> 5.00
+              </h6>
+              <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
+              <h6 class="text-gray-600">
+                <i class="fa-regular fa-heart"></i> 200
+              </h6>
             </div>
-            
-            <div class="text-center space-y-5 ">
-                <div class="radial-progress text-[#49D293] font-[800]" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
-                <h4 class="text-[20px] font-[600] text-[#131318]">Experienced Coach</h4>
-                <h6 class="text-[16px] font-[400] ">Experienced coach cultivates talent effectively.</h6>
+            <h2 class="card-title">World Cup Flags Football</h2>
+            <p>Flags wave, football unites: World Cup passion unfolds.</p>
+            <div class="card-actions justify-between">
+              <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
+              <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
             </div>
-            <div class="text-center space-y-5">
-                <div class="radial-progress text-yellow-200 font-[800]" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
-                <h4 class="text-[20px] font-[600] text-[#131318]">Senior Player</h4>
-                <h6 class="text-[16px] font-[400] ">Senior player leads with <br> experience.</h6>
-            </div>
-            <div class="text-center space-y-5">
-                <div class="radial-progress text-[#4C8DF1] font-[800]" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
-                <h4 class="text-[20px] font-[600] text-[#131318]">Prayer Facility</h4>
-                <h6 class="text-[16px] font-[400] ">Training ground fosters athlete development.</h6>
-            </div>
-
+          </div>
         </div>
 
-        <!--Professional Hockeys Club End =========================== -->
-
-       
-    </header>
-    <main class="w-[95%] lg:w-[1172px] mx-auto ">
-         <!-- program section start -->
-         <div class="border-t border-dotted border-black w-full lg:mt-[100px] my-4"></div>
-         <div class="w-100% lg:w-[607px] text-center mx-auto mt-5 lg:mt-[50px]  space-y-5">
-             <h1 class="text-[28px]  lg:text-[36px] font-[800] text-[#131318] ">Program Sections</h1>
-             <p class="text-[16px] font-[500] text-[#13131899]">Program sections include planning, coding, testing, debugging, documentation—essential phases ensuring software development success and efficiency.</p>
-         </div>
-         <div class="border-t border-dotted border-black w-full my-16"></div>
- 
-         <!-- imgss -->
-         <div class="flex flex-col lg:flex-row justify-between">
-             <div class="hero h-full w-[100%] lg:h-[338px] lg:w-[570px] rounded-2xl" style="background-image: url(./Images/2.png);">
-                 <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
-                 <div class="hero-content text-center text-neutral-content">
-                   <div class="max-w-md">
-                     <h1 class="mb-5 text-4xl font-bold lg:text-left">Junior Program</h1>
-                     <p class="mb-5 lg:text-left">Junior programmers embark on a learning journey, gaining coding skills, problem-solving abilities, and teamwork experience. Mentorship guides their growth, shaping future software development leaders.</p>
-                     <button class="btn lg:-ml-[330px]  bg-[#FF4240] text-white border-0 ">Register Now</button>
-                   </div>
-                 </div>
-               </div>
-               <div class="hero h-full w-[100%] mt-[20px] lg:mt-0 lg:h-[338px] lg:w-[570px] rounded-2xl" style="background-image: url(./Images/3.png);">
-                 <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
-                 <div class="hero-content text-center text-neutral-content">
-                   <div class="max-w-md">
-                     <h1 class="mb-5 text-4xl font-bold lg:text-left">Teenager Program</h1>
-                     <p class="mb-5 lg:text-left">Teenager programmers explore coding realms, blending creativity and technology. Nurturing curiosity, mentorship transforms their passion into powerful skills, fostering innovation for the digital future..</p>
-                     <button class="btn lg:-ml-[330px] bg-[#FF4240] text-white border-0">Register Now</button>
-                   </div>
-                 </div>
-               </div>
-               
-         </div>
-         <div class="hero w-full h-[450px] mt-10 rounded-2xl" style="background-image: url(./Images/4.png);">
-             <div class="hero-overlay bg-opacity-60 rounded-2xl "></div>
-            <div class="">
-             <div class="hero-content text-center text-neutral-content ">
-                 <div class="max-w-md lg:absolute lg:left-[15%] lg:mt-[100px]">
-                   <h1 class="mb-5 text-4xl font-bold lg:text-left">Professional Program</h1>
-                   <p class="mb-5 lg:text-left">Professional programs demand expertise, efficiency, and collaboration. Seasoned developers navigate complex projects, ensuring quality, meeting deadlines, and driving innovation in the ever-evolving landscape of software engineering.</p>
-                   <button class="btn lg:-ml-[330px]  bg-[#FF4240] text-white border-0">Register Now</button>
-                 </div>
-               </div>
+        <!-- end -->
+        <div
+          class="card card-side bg-base-100 h-full flex flex-col lg:flex-row shadow-xl border-zinc-200 border-[1px] p-4"
+        >
+          <figure class="w-full lg:w-[180px]">
+            <img
+              src="./Images/5.png"
+              class="h-[170px] w-full rounded-xl bg-auto lg:object-cover"
+              alt="Movie"
+            />
+          </figure>
+          <div class="mt-7 lg:ml-6 space-y-3">
+            <div class="flex w-[60%] justify-between">
+              <h6 class="text-gray-600">
+                <i class="fa-solid fa-star text-orange-600"></i> 5.00
+              </h6>
+              <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
+              <h6 class="text-gray-600">
+                <i class="fa-regular fa-heart"></i> 200
+              </h6>
             </div>
-           </div>
-         <!-- program section End============================= -->
+            <h2 class="card-title">World Cup Flags Football</h2>
+            <p>Flags wave, football unites: World Cup passion unfolds.</p>
+            <div class="card-actions justify-between">
+              <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
+              <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <div
+          class="card card-side bg-base-100 h-full flex flex-col lg:flex-row shadow-xl border-zinc-200 border-[1px] p-4"
+        >
+          <figure class="w-full lg:w-[180px]">
+            <img
+              src="./Images/7.png"
+              class="h-[170px] w-full rounded-xl bg-auto lg:object-cover"
+              alt="Movie"
+            />
+          </figure>
+          <div class="mt-7 lg:ml-6 space-y-3">
+            <div class="flex w-[60%] justify-between">
+              <h6 class="text-gray-600">
+                <i class="fa-solid fa-star text-orange-600"></i> 5.00
+              </h6>
+              <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
+              <h6 class="text-gray-600">
+                <i class="fa-regular fa-heart"></i> 200
+              </h6>
+            </div>
+            <h2 class="card-title">World Cup Flags Football</h2>
+            <p>Flags wave, football unites: World Cup passion unfolds.</p>
+            <div class="card-actions justify-between">
+              <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
+              <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <div
+          class="card card-side bg-base-100 h-full flex flex-col lg:flex-row shadow-xl border-zinc-200 border-[1px] p-4"
+        >
+          <figure class="w-full lg:w-[180px]">
+            <img
+              src="./Images/8.png"
+              class="h-[170px] w-full rounded-xl bg-auto lg:object-cover"
+              alt="Movie"
+            />
+          </figure>
+          <div class="mt-7 lg:ml-6 space-y-3">
+            <div class="flex w-[60%] justify-between">
+              <h6 class="text-gray-600">
+                <i class="fa-solid fa-star text-orange-600"></i> 5.00
+              </h6>
+              <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
+              <h6 class="text-gray-600">
+                <i class="fa-regular fa-heart"></i> 200
+              </h6>
+            </div>
+            <h2 class="card-title">World Cup Flags Football</h2>
+            <p>Flags wave, football unites: World Cup passion unfolds.</p>
+            <div class="card-actions justify-between">
+              <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
+              <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <div
+          class="card card-side bg-base-100 h-full flex flex-col lg:flex-row shadow-xl border-zinc-200 border-[1px] p-4"
+        >
+          <figure class="w-full lg:w-[180px]">
+            <img
+              src="./Images/9.png"
+              class="h-[170px] w-full rounded-xl bg-auto lg:object-cover"
+              alt="Movie"
+            />
+          </figure>
+          <div class="mt-7 lg:ml-6 space-y-3">
+            <div class="flex w-[60%] justify-between">
+              <h6 class="text-gray-600">
+                <i class="fa-solid fa-star text-orange-600"></i> 5.00
+              </h6>
+              <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
+              <h6 class="text-gray-600">
+                <i class="fa-regular fa-heart"></i> 200
+              </h6>
+            </div>
+            <h2 class="card-title">World Cup Flags Football</h2>
+            <p>Flags wave, football unites: World Cup passion unfolds.</p>
+            <div class="card-actions justify-between">
+              <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
+              <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+        <div
+          class="card card-side bg-base-100 h-full flex flex-col lg:flex-row shadow-xl border-zinc-200 border-[1px] p-4"
+        >
+          <figure class="w-full lg:w-[180px]">
+            <img
+              src="./Images/10.png"
+              class="h-[170px] w-full rounded-xl bg-auto lg:object-cover"
+              alt="Movie"
+            />
+          </figure>
+          <div class="mt-7 lg:ml-6 space-y-3">
+            <div class="flex w-[60%] justify-between">
+              <h6 class="text-gray-600">
+                <i class="fa-solid fa-star text-orange-600"></i> 5.00
+              </h6>
+              <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
+              <h6 class="text-gray-600">
+                <i class="fa-regular fa-heart"></i> 200
+              </h6>
+            </div>
+            <h2 class="card-title">World Cup Flags Football</h2>
+            <p>Flags wave, football unites: World Cup passion unfolds.</p>
+            <div class="card-actions justify-between">
+              <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
+              <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+      </div>
 
-         <!-- our product section start -->
-         <div class="border-t border-dotted border-black w-full lg:mt-[100px] my-4"></div>
-         <div class="w-100% lg:w-[607px] text-center mx-auto mt-5 lg:mt-[50px]  space-y-5">
-             <h1 class="text-[28px]  lg:text-[36px] font-[800] text-[#131318] ">Our Product Section</h1>
-             <p class="text-[16px] font-[500] text-[#13131899]">In our product section, sports take center stage, offering a diverse array of high-quality gear, apparel, and accessories. Elevate your performance with our innovative products designed for enthusiasts and athletes alike.</p>
-         </div>
-         <div class="border-t border-dotted border-black w-full my-16"></div>
+      <!-- our product section end ========================================== -->
 
+      <!-- question section -->
+      <div
+        class="border-t border-dotted border-black w-full lg:mt-[100px] my-4"
+      ></div>
+      <div
+        class="w-100% lg:w-[607px] text-center mx-auto mt-5 lg:mt-[50px] space-y-5"
+      >
+        <h1 class="text-[28px] lg:text-[36px] font-[800] text-[#131318]">
+            Clients Question
+        </h1>
+        <p class="text-[16px] font-[500] text-[#13131899]">
+            Clients' questions are valued; our dedicated team provides insightful answers, fostering trust and ensuring satisfaction. We prioritize clear communication to address concerns and build enduring client relationships.
+        </p>
+      </div>
+      <div class="border-t border-dotted border-black w-full my-16"></div>
 
-         <!-- main card start -->
-         <div class="grid grid-cols-1 lg:grid-cols-2 gap-[24px]">
+      <!-- main qus -->
+      <div class="w-full flex flex-col lg:flex-row p-[32px] border-gray-300 rounded-lg border-[1px]">
+        <div class="right h-full">
+            <img src="./Images/11.png" alt="">
 
-            <!-- card1 -->
-            <div class="card card-side bg-base-100 h-full flex flex-col lg:flex-row  shadow-xl border-zinc-200 border-[1px] p-4">
-                <figure class=" w-full lg:w-[180px]"><img src="./Images/6.png" class="h-[170px] w-full rounded-xl bg-auto  lg:object-cover" alt="Movie"/></figure>
-                <div class="mt-7 lg:ml-6 space-y-3 ">
-                    <div class="flex w-[60%] justify-between">
-                        <h6 class="text-gray-600"><i class="fa-solid fa-star text-orange-600"></i> 5.00</h6>
-                        <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
-                        <h6 class="text-gray-600"><i class="fa-regular fa-heart"></i> 200</h6>
-                    </div>
-                  <h2 class="card-title">World Cup Flags Football</h2>
-                  <p>Flags wave, football unites: World Cup passion unfolds. </p>
-                  <div class="card-actions justify-between">
-                    <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
-                    <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
-                   
-                  </div>
+        </div>
+        <div class="left lg:ml-10 space-y-5 mt-[20px] lg:mt-0 lg:space-y-7 w-full lg:w-[70%]">
+            <div class="collapse collapse-plus border-b-[5px]  bg-base-200 w-full">
+                <input type="radio" name="my-accordion-3" class="" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium ">
+                    Our Equipment 
+                </div>
+                <div class="collapse-content"> 
+                  <p>Our equipment collection showcases top-tier gear and accessories 
+                     meticulously curated for performance and style. From cutting-edge 
                 </div>
               </div>
-           
-           
-            <!-- end -->
-            <div class="card card-side bg-base-100 h-full flex flex-col lg:flex-row  shadow-xl border-zinc-200 border-[1px] p-4">
-                <figure class=" w-full lg:w-[180px]"><img src="./Images/5.png" class="h-[170px] w-full rounded-xl bg-auto  lg:object-cover" alt="Movie"/></figure>
-                <div class="mt-7 lg:ml-6 space-y-3 ">
-                    <div class="flex w-[60%] justify-between">
-                        <h6 class="text-gray-600"><i class="fa-solid fa-star text-orange-600"></i> 5.00</h6>
-                        <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
-                        <h6 class="text-gray-600"><i class="fa-regular fa-heart"></i> 200</h6>
-                    </div>
-                  <h2 class="card-title">World Cup Flags Football</h2>
-                  <p>Flags wave, football unites: World Cup passion unfolds. </p>
-                  <div class="card-actions justify-between">
-                    <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
-                    <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
-                   
-                  </div>
+              <div class="collapse collapse-plus border-b-[5px] bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                    Hockey Training
+                </div>
+                <div class="collapse-content"> 
+                    <p>Our equipment collection showcases top-tier gear and accessories
+                        meticulously curated for performance and style. From cutting-edge technology to ergonomic designs, our products redefine excellence, meeting the diverse needs of enthusiasts and professionals alike, ensuring an unparalleled experience in every use.
                 </div>
               </div>
-              <!-- end -->
-              <div class="card card-side bg-base-100 h-full flex flex-col lg:flex-row  shadow-xl border-zinc-200 border-[1px] p-4">
-                <figure class=" w-full lg:w-[180px]"><img src="./Images/7.png" class="h-[170px] w-full rounded-xl bg-auto  lg:object-cover" alt="Movie"/></figure>
-                <div class="mt-7 lg:ml-6 space-y-3">
-                    <div class="flex w-[60%] justify-between">
-                        <h6 class="text-gray-600"><i class="fa-solid fa-star text-orange-600"></i> 5.00</h6>
-                        <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
-                        <h6 class="text-gray-600"><i class="fa-regular fa-heart"></i> 200</h6>
-                    </div>
-                  <h2 class="card-title">World Cup Flags Football</h2>
-                  <p>Flags wave, football unites: World Cup passion unfolds. </p>
-                  <div class="card-actions justify-between">
-                    <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
-                    <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
-                   
-                  </div>
-                </div>
-              </div>
-              <!-- end -->
-              <div class="card card-side bg-base-100 h-full flex flex-col lg:flex-row  shadow-xl border-zinc-200 border-[1px] p-4">
-                <figure class=" w-full lg:w-[180px]"><img src="./Images/8.png" class="h-[170px] w-full rounded-xl bg-auto  lg:object-cover" alt="Movie"/></figure>
-                <div class="mt-7 lg:ml-6 space-y-3">
-                    <div class="flex w-[60%] justify-between">
-                        <h6 class="text-gray-600"><i class="fa-solid fa-star text-orange-600"></i> 5.00</h6>
-                        <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
-                        <h6 class="text-gray-600"><i class="fa-regular fa-heart"></i> 200</h6>
-                    </div>
-                  <h2 class="card-title">World Cup Flags Football</h2>
-                  <p>Flags wave, football unites: World Cup passion unfolds. </p>
-                  <div class="card-actions justify-between">
-                    <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
-                    <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
-                   
-                  </div>
-                </div>
-              </div>
-              <!-- end -->
-              <div class="card card-side bg-base-100 h-full flex flex-col lg:flex-row  shadow-xl border-zinc-200 border-[1px] p-4">
-                <figure class=" w-full lg:w-[180px]"><img src="./Images/9.png" class="h-[170px] w-full rounded-xl bg-auto  lg:object-cover" alt="Movie"/></figure>
-                <div class="mt-7 lg:ml-6 space-y-3 ">
-                    <div class="flex w-[60%] justify-between">
-                        <h6 class="text-gray-600"><i class="fa-solid fa-star text-orange-600"></i> 5.00</h6>
-                        <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
-                        <h6 class="text-gray-600"><i class="fa-regular fa-heart"></i> 200</h6>
-                    </div>
-                  <h2 class="card-title">World Cup Flags Football</h2>
-                  <p>Flags wave, football unites: World Cup passion unfolds. </p>
-                  <div class="card-actions justify-between">
-                    <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
-                    <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
-                   
-                  </div>
-                </div>
-              </div>
-              <!-- end -->
-              <div class="card card-side bg-base-100 h-full flex flex-col lg:flex-row  shadow-xl border-zinc-200 border-[1px] p-4">
-                <figure class=" w-full lg:w-[180px]"><img src="./Images/10.png" class="h-[170px] w-full rounded-xl bg-auto  lg:object-cover" alt="Movie"/></figure>
-                <div class="mt-7 lg:ml-6 space-y-3">
-                    <div class="flex w-[60%] justify-between">
-                        <h6 class="text-gray-600"><i class="fa-solid fa-star text-orange-600"></i> 5.00</h6>
-                        <h6 class="text-gray-600"><i class="fa-solid fa-eye"></i> 20</h6>
-                        <h6 class="text-gray-600"><i class="fa-regular fa-heart"></i> 200</h6>
-                    </div>
-                  <h2 class="card-title">World Cup Flags Football</h2>
-                  <p>Flags wave, football unites: World Cup passion unfolds. </p>
-                  <div class="card-actions justify-between">
-                    <h3 class="text-orange-600 font-[600]">Price - $220.00</h3>
-                    <h3><i class="fa-solid fa-truck"></i> Delivery Fee : Free</h3>
-                   
-                  </div>
-                </div>
-              </div>
-              <!-- end -->
-
               
+              <div class="collapse collapse-plus border-b-[5px] bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                    Private Lessons
+                </div>
+                <div class="collapse-content"> 
+                    <p>Our equipment collection showcases top-tier gear and accessories
+                        meticulously curated for performance and style. From cutting-edge technology to ergonomic designs, our products redefine excellence, meeting the diverse needs of enthusiasts and professionals alike, ensuring an unparalleled experience in every use. </p>
+                </div>
+              </div>
               
+              <div class="collapse collapse-plus border-b-[5px] bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                    Booking
+                </div>
+                <div class="collapse-content"> 
+                    <p>Our equipment collection showcases top-tier gear and accessories
+                        meticulously curated for performance and style. From cutting-edge technology to ergonomic designs, our products redefine excellence, meeting the diverse needs of enthusiasts and professionals alike, ensuring an unparalleled experience in every use. </p>
+                </div>
+              </div>
 
-
-
-
-
-
-
-
-         </div>
-
-         <!-- our product section end ========================================== -->
+        </div>
+      </div>
+      <!-- question section================================================== -->
     </main>
     <footer></footer>
   </body>
