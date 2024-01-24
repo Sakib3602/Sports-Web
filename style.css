@@ -4,8 +4,7 @@
     font-family: "Manrope", sans-serif;
 }
 
-@media screen and (max-width:576px) {
-    .oooo100{
-        background-position: cover;
-    }
-}
+/* .give::placeholder {
+    padding: 10px;
+
+} */
